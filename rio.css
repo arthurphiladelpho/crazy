@@ -1,0 +1,161 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #82beff;
+  }
+
+  h1 {
+  	font-family: Impact, Charcoal, sans-serif;
+  	font-variant: small-caps;
+  	text-decoration: underline;
+  	font-weight: bolder;
+  }
+
+  button {
+	margin: 3px;
+  	text-align: center;
+  	display: block;
+  	float: left;
+  	font-weight: bold;
+  }
+
+ table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;;
+ }
+
+ table {
+	margin: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border:none;
+		outline:none;
+ }
+
+ th {
+		background-color: #4CAF50;
+	color: white;
+	padding: 3px 10px 3px 10px;
+	border:none;
+		outline:none;
+		letter-spacing: 2px;
+		font-weight: lighter;
+}
+
+ td, h2 {
+ 	text-align: center;
+ }
+
+ td {
+ 	border:none;
+		outline:none;
+		color: #454545;
+ }
+
+ h2 {
+ 	display: block;
+ 	padding: 10px;
+ 	color: #454545;
+ 	font-weight: bolder;
+ 	border-top: dashed;
+ 	border-bottom: dashed;
+ }
+
+ h3 {
+ 	margin: 40px 0 30px 0;
+ 	display: block;
+ 	text-align: center;
+ 	text-decoration: underline;
+ 	color: #454545;
+ 	}
+
+ h4 {
+ 	font-weight: 100;
+ 	font-size: 1.1em;
+ 	color: #e0f6ff;
+ }
+
+ ul {
+ 	list-style: none;
+ 	margin: 0 auto;
+ 	margin-left: 65px;
+ 	padding-left: 80px;
+ 	padding-right: 80px;
+ 	max-width: 980px;
+ }	
+
+
+ li {
+ 	margin: 25px 30px 25px 40px;
+	display: inline-block;
+	padding: 15px;
+	border: solid;
+	border-color: #454545;
+ }
+
+.linhaPar {
+ background-color: #999999;
+}
+
+.linhaImpar {
+	background-color: #dddddd;
+}
+
+.footerImages {
+	float: left;
+	padding: 0px 65px 0px 65px;
+	border:none;
+		outline:none;			
+}
+
+ #container {
+ 	width: 1000px;
+ 	margin: 0 auto;
+ 	border-style: groove;
+ 	border: 3px;
+ 	background-color: #e0f6ff;
+ }
+
+ #logoDiv {
+	text-align: center;
+	padding: 20px;
+}
+
+ #topbar {
+ 	background-color: #0089de;
+	height: 25px;
+	width: 100%;
+	padding-top: 3px;
+}
+
+#buttonContainer {
+	width: 850px;
+	margin: 0 auto;
+}
+
+#map {
+    height: 250px;
+   	margin: 0 auto;
+   	margin-bottom: 40px;
+    width: 100%;
+    float: left;
+
+  }
+
+#results {
+	font-size: 1.2em;
+	width: 100%;
+	padding: 2px 10px 2px 10px;
+	margin: 0 auto;
+	letter-spacing: 1px;
+}
+
+#footerDiv {
+	width: 100%;
+	height: 180px;
+	background-color: #0089de;
+	text-align: center;
+	padding-top: 5px;
+}
+
